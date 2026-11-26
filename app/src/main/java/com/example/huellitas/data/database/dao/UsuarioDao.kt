@@ -1,0 +1,30 @@
+package com.example.huellitas.data.database.dao
+
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.Query
+import androidx.room.Update
+import com.example.huellitas.data.database.entity.UsuarioEntity
+import kotlinx.coroutines.flow.Flow
+
+@Dao
+interface UsuarioDao {
+    @Insert
+    suspend fun insertarUsuario(usuario: UsuarioEntity)
+
+    @Update
+    suspend fun actualizarUsuario(usuario: UsuarioEntity)
+
+    @Delete
+    suspend fun eliminarUsuario(usuario: UsuarioEntity)
+
+    @Query("SELECT * FROM usuario WHERE correo = :correo LIMIT 1")
+    suspend fun buscarPorCorreo(correo: String): UsuarioEntity?
+
+    @Query("SELECT * FROM usuario WHERE id_usuario = :id LIMIT 1")
+    suspend fun buscarPorId(id: Int): UsuarioEntity?
+
+    @Query("SELECT * FROM usuario ORDER BY nombre ASC")
+    fun obtenerUsuarios(): Flow<List<UsuarioEntity>>
+}

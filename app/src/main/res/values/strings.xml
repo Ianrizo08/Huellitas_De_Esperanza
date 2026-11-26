@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Huellitas de Esperanza</string>
+    <string name="logo_nombre">Huellitas</string>
+    <string name="logo_subnombre">de Esperanza</string>
+        <string name="emoji_perro">🐶</string>
+    <string name="emoji_perro_hero">🐕</string>
+
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_adoptar">Adoptar</string>
+    <string name="nav_apoyar">Apoyar</string>
+    <string name="nav_cuenta">Cuenta</string>
+
+    <string name="inicio_titulo">Un hogar cambia todo</string>
+    <string name="inicio_subtitulo">Adopta, ayuda y transforma una vida.</string>
+    <string name="inicio_hero_linea1">Cada patita merece</string>
+    <string name="inicio_hero_linea2">una familia que la ame.</string>
+    <string name="inicio_hero_texto">Conoce a nuestros perritos y encuentra a tu nuevo mejor amigo.</string>
+    <string name="inicio_hero_boton">Conocer perritos</string>
+    <string name="inicio_hero_imagen">Perrito que busca un hogar</string>
+    <string name="inicio_como_ayudar">¿Cómo puedes ayudar?</string>
+    <string name="inicio_adopta_titulo">Adopta con amor</string>
+    <string name="inicio_adopta_texto">Encuentra a tu compañero ideal.</string>
+    <string name="inicio_apoya_titulo">Apoya al albergue</string>
+    <string name="inicio_apoya_texto">Donaciones, alimento y voluntariado.</string>
+    <string name="inicio_ayuda_titulo">Tu ayuda sí hace la diferencia</string>
+    <string name="inicio_ayuda_cifra">%1$d perros esperan una familia</string>
+    <string name="inicio_ayuda_texto">Cada pequeño gesto cuenta.</string>
+    <string name="ir_a_seccion">Abrir sección</string>
+
+    <string name="catalogo_titulo">Adopta un amigo</string>
+    <string name="catalogo_subtitulo">Hay una huellita esperando por ti.</string>
+    <string name="catalogo_buscar">Buscar por nombre…</string>
+    <string name="catalogo_vacio">No encontramos perritos con esa búsqueda.</string>
+    <string name="catalogo_ver_perfil">Ver perfil →</string>
+    <string name="catalogo_foto">Fotografía de %1$s</string>
+    <string name="catalogo_datos">%1$s · %2$s</string>
+
+    <string name="filtro_todos">Todos</string>
+    <string name="filtro_cachorros">Cachorros</string>
+    <string name="filtro_adultos">Adultos</string>
+    <string name="filtro_pequenos">Pequeños</string>
+
+    <string name="estado_disponible">Disponible</string>
+    <string name="estado_en_cuidado">En cuidado</string>
+    <string name="estado_adoptado">Adoptado</string>
+
+    <string name="tamano_pequeno">Pequeño</string>
+    <string name="tamano_mediano">Mediano</string>
+    <string name="tamano_grande">Grande</string>
+
+    <plurals name="edad_meses">
+        <item quantity="one">%d mes</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="edad_anios">
+        <item quantity="one">%d año</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+
+    <string name="cabecera_iniciar_sesion">Iniciar sesión</string>
+    <string name="cabecera_cuenta_de">Cuenta de %1$s</string>
+    <string name="volver">Volver</string>
+    <string name="campo_obligatorio">Este campo es obligatorio</string>
+
+    <string name="catalogo_agregar">Agregar perrito</string>
+    <string name="catalogo_limpiar">Borrar búsqueda</string>
+
+    <string name="rol_adoptante">Adoptante</string>
+    <string name="rol_voluntario">Voluntario</string>
+    <string name="rol_admin">Administrador</string>
+
+    <string name="apoyar_titulo">Apoya al albergue</string>
+    <string name="apoyar_subtitulo">Tu ayuda llega directo a los perritos.</string>
+    <string name="apoyar_donar_titulo">Donaciones</string>
+    <string name="apoyar_donar_texto">Ayuda con vacunas y medicinas.</string>
+    <string name="apoyar_donar_detalle">Tu aportación económica se usa para vacunas, esterilizaciones, medicinas y atención veterinaria de los perritos del albergue.</string>
+    <string name="apoyar_alimento_titulo">Alimento y cobijas</string>
+    <string name="apoyar_alimento_texto">Croquetas, cobijas y juguetes.</string>
+    <string name="apoyar_alimento_detalle">Puedes llevar croquetas, cobijas, camas, correas y juguetes al albergue. Todo ayuda a que los perritos esperen su hogar con comodidad.</string>
+    <string name="apoyar_voluntariado_titulo">Voluntariado</string>
+    <string name="apoyar_voluntariado_texto">Dona tu tiempo y tus manos.</string>
+    <string name="apoyar_voluntariado_detalle">Los voluntarios pasean, bañan y acompañan a los perritos. Crea tu cuenta como voluntario para formar parte del equipo.</string>
+    <string name="apoyar_cerrar">Cerrar</string>
+    <string name="apoyar_ir_cuenta">Ir a Cuenta</string>
+
+    <string name="cuenta_titulo">Tu cuenta</string>
+    <string name="cuenta_subtitulo">Inicia sesión o crea una cuenta para ayudar a los perritos.</string>
+    <string name="cuenta_tab_entrar">Iniciar sesión</string>
+    <string name="cuenta_tab_registro">Crear cuenta</string>
+    <string name="cuenta_nombre">Nombre completo</string>
+    <string name="cuenta_correo">Correo electrónico</string>
+    <string name="cuenta_telefono">Teléfono</string>
+    <string name="cuenta_contrasena">Contraseña</string>
+    <string name="cuenta_rol">Quiero participar como</string>
+    <string name="cuenta_boton_entrar">Entrar</string>
+    <string name="cuenta_boton_registro">Crear mi cuenta</string>
+    <string name="cuenta_error_campos">Escribe tu correo y tu contraseña.</string>
+    <string name="cuenta_error_credenciales">Correo o contraseña incorrectos.</string>
+    <string name="cuenta_error_registro_campos">Escribe tu nombre, un correo válido y una contraseña de al menos 6 caracteres.</string>
+    <string name="cuenta_error_correo_repetido">Ese correo ya está registrado.</string>
+    <string name="cuenta_error_generico">No se pudo crear la cuenta. Revisa tus datos.</string>
+    <string name="cuenta_hola">¡Hola, %1$s!</string>
+    <string name="cuenta_sesion_activa">Tu sesión está iniciada.</string>
+    <string name="cuenta_dato_correo">Correo: %1$s</string>
+    <string name="cuenta_dato_telefono">Teléfono: %1$s</string>
+    <string name="cuenta_dato_rol">Rol: %1$s</string>
+    <string name="cuenta_cerrar_sesion">Cerrar sesión</string>
+
+    <string name="perfil_no_encontrado">No encontramos a este perrito.</string>
+    <string name="perfil_edad">Edad</string>
+    <string name="perfil_tamano">Tamaño</string>
+    <string name="perfil_personalidad">Personalidad</string>
+    <string name="perfil_historia">Su historia</string>
+    <string name="perfil_cuidados">Cuidados</string>
+    <string name="perfil_ingreso">Ingresó al albergue</string>
+    <string name="perfil_sin_datos">Sin información registrada.</string>
+
+    <string name="nuevo_titulo">Agregar perrito</string>
+    <string name="nuevo_subtitulo">Los datos se guardan en la base de datos del albergue.</string>
+    <string name="nuevo_requiere_sesion">Inicia sesión para agregar un perrito.</string>
+    <string name="nuevo_ir_cuenta">Ir a iniciar sesión</string>
+    <string name="nuevo_nombre">Nombre</string>
+    <string name="nuevo_edad">Edad</string>
+    <string name="nuevo_unidad_meses">Meses</string>
+    <string name="nuevo_unidad_anios">Años</string>
+    <string name="nuevo_tamano">Tamaño</string>
+    <string name="nuevo_estado">Estado</string>
+    <string name="nuevo_personalidad">Personalidad</string>
+    <string name="nuevo_historia">Historia</string>
+    <string name="nuevo_cuidados">Cuidados</string>
+    <string name="nuevo_guardar">Guardar perrito</string>
+    <string name="nuevo_error_nombre">Escribe el nombre del perrito.</string>
+    <string name="nuevo_error_edad">Escribe la edad del perrito.</string>
+    <string name="nuevo_guardado">%1$s se guardó en el catálogo</string>
+</resources>
